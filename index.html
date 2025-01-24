@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>実技試験</title>
+</head>
+    <style>
+        body{
+            background-color: azure;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            display: flex;
+            border: solid 1px rgb(0, 0, 0);
+            background-color: blue;
+        }
+        text{
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #999;
+        }
+
+        @media(max-width:767px){
+            body{
+                background-color: aqua;
+            }
+        }
+        
+        .capi{
+            width: 200px;
+            height: auto;
+            margin: 0 auto;
+            padding: 10px 200px 10px;
+        }
+
+        .form{
+            margin: 0 auto;
+            padding: 10px 200px 10px;
+        }
+    </style>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div style="padding: 10px;margin-bottom: 10px;border: 1px solid #999; background-color: rgb(150, 150, 150);">
+        ダミーダミーダミーダミーダミーダミーダダミーダミーダミーダミー
+        ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー
+        ダミーダミーダミーダミーダミーダミーミーダミーダミーダミー
+        ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー
+    </div>
+    <div class="capi"><img src="./img/kapi.webp" alt="カピバラ"></div>
+
+    <div class="form">
+        <div class="textbox">
+            <form action="#" method="post">
+                <p>
+                    お名前：<input type="text" naem="name">
+                </p>
+                <p>
+                    返信を希望する方はチェックしてください：<input type="checkbox" value="check">
+                </p>
+                <p>
+                    メッセージ：<br><textarea name="comment" cols="40" rows="8"></textarea>
+                </p>
+                <p>
+                    <input type="button" value="送信する">
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
